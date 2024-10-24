@@ -5,7 +5,7 @@ services:
     environment:
       NODE_ENV: production
       PORT: "9000"
-      HOST: "0.0.0.0"
+      HOST: "localhost"
     ports:
       - "9000:9000"
     network_mode: bridge

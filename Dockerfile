@@ -14,4 +14,4 @@ RUN npm run build
 
 EXPOSE 9000
 
-CMD node server
+CMD node server.js

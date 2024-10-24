@@ -14,4 +14,4 @@ RUN npm run build
 
 EXPOSE 9000
 
-CMD node ./dist/index.html
+CMD node ./server.js

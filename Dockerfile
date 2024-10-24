@@ -4,8 +4,6 @@ ARG NODE_VERSION=22.6.0
 
 FROM node:${NODE_VERSION}-alpine
 
-USER node
-
 WORKDIR /home/node/app
 
 COPY . .

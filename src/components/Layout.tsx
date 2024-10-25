@@ -1,12 +1,10 @@
-import { NavLink, Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom"
+import Navbar from "./Navbar"
+
 const Layout = () => {
     return (
         <div>
-            <div className="top-0 p-5 mt-0 w-screen bg-slate-600 text-purple-900">
-                <nav>
-                    <NavLink to='/'>Home</NavLink>
-                </nav>
-            </div>
+            <Navbar/>
 
             <Outlet/>
         </div>

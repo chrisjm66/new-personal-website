@@ -9,10 +9,10 @@ const Navbar = () => {
             </div>
             <div>
                 <nav className="flex flex-row flex-nowrap">
-                    <NavLink to='/' className='text-sm md:text-lg font-bold text-gray-100 no-underline hover:bg-sky-500 rounded-md py-3 px-6 mx-2 md:mx-4 transition ease-in-out delay-15 duration-300'>Home</NavLink>
-                    <NavLink to='/about' className='text-sm md:text-lg font-bold text-gray-100 no-underlin hover:bg-sky-500 rounded-md py-3 px-6 mx-2 md:mx-4 transition ease-in-out delay-15 duration-300'>About Me</NavLink>
-                    <NavLink to='/contact' className='text-sm md:text-lg font-bold text-gray-100 no-underline hover:bg-sky-500 rounded-md py-3 px-6 mx-2 md:mx-4 transition ease-in-out delay-15 duration-300'>Contact</NavLink>
-                    <NavLink to='/portfolio' className='text-sm md:text-lg font-bold text-gray-100 no-underline hover:bg-sky-500 rounded-md py-3 px-6 mx-2 md:mx-4 transition ease-in-out delay-15 duration-300'>Portfolio</NavLink>
+                    <NavLink to='/' className='text-sm md:text-lg font-bold text-gray-100 no-underline hover:bg-sky-500 rounded-md py-3 px-3 md:px-6 mx-2 md:mx-4 transition ease-in-out delay-15 duration-300'>Home</NavLink>
+                    <NavLink to='/about' className='text-sm md:text-lg font-bold text-gray-100 no-underlin hover:bg-sky-500 rounded-md py-3 px-3 md:px-6 mx-2 md:mx-4 transition ease-in-out delay-15 duration-300'>About Me</NavLink>
+                    <NavLink to='/contact' className='text-sm md:text-lg font-bold text-gray-100 no-underline hover:bg-sky-500 rounded-md py-3 px-3 md:px-6 mx-2 md:mx-4 transition ease-in-out delay-15 duration-300'>Contact</NavLink>
+                    <NavLink to='/portfolio' className='text-sm md:text-lg font-bold text-gray-100 no-underline hover:bg-sky-500 rounded-md py-3 px-3 md:px-6 mx-2 md:mx-4 transition ease-in-out delay-15 duration-300'>Portfolio</NavLink>
                 </nav>
            </div>
         </div>

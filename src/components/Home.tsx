@@ -1,3 +1,5 @@
+import ProjectDisplay from "./ProjectDisplay"
+
 const Home = () => {
     return (
         <div>
@@ -14,7 +16,7 @@ const Home = () => {
                 <h1>My Projects</h1>
 
                 <div className='flex flex-row justify-center p-10'>
-                    <img src='/obama.png' alt='obama' className="w-96"/>
+                    <ProjectDisplay name='This Website' description='This website is a project in and of itself! It uses React and Node primarily!' img='' localHref='personal-website' githubHref='https://github.com/chrisjm66/new-personal-website' />
                 </div>
             </div>
         </div>

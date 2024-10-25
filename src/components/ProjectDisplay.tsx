@@ -7,10 +7,7 @@ const ProjectDisplay = ({name, description, img, githubHref, localHref}: any) =>
         <div className='w-80 h-1/2 sm:w-120 sm:h-136  transition duration-300 border-4 border-gray-500 bg-cyan-800 flex flex-col justify-center align-top justify-items-center rounded-xl px-6 py-2 hover:scale-105 hover:bg-cyan-700'>
             <h1 className='m-2 text-left font-semibold'>{name}</h1>
 
-            
             <img className='w-1/2 rounded-md border-' src={img} alt='hi'/>
-            
-            
             
             <h2 className='text-left text-lg italic mt-5'>{description}</h2>
 

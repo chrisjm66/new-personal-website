@@ -14,7 +14,11 @@ const Home = () => {
                 <h1>My Projects</h1>
 
                 <div className='flex flex-row justify-center p-10'>
-                    <img src='/obama.png' alt='obama' className="w-96"/>
+                    <div className=''>
+                        <img src='/obama.png' alt='obama' className="w-96"/>
+                        <h2 className='text-2xl italic mt-2'>Barack Obama, confused</h2>
+                    </div>
+                    
                 </div>
             </div>
         </div>

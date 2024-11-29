@@ -5,8 +5,8 @@ services:
     environment:
       NODE_ENV: production
       PORT: "9000"
-      HOST: "localhost"
-      VIRTUAL_HOST: website1.com
+      HOST: "0.0.0.0"
+      VIRTUAL_HOST: chrismangan.net
     ports:
       - "9000:9000"
     network_mode: bridge

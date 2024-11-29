@@ -6,6 +6,7 @@ services:
       NODE_ENV: production
       PORT: "9000"
       HOST: "localhost"
+      VIRTUAL_HOST: website1.com
     ports:
       - "9000:9000"
     network_mode: bridge

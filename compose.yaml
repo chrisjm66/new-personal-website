@@ -9,3 +9,4 @@ services:
       VIRTUAL_HOST: chrismangan.net
     ports:
       - "8001:8001"
+    restart: on-failure

@@ -12,6 +12,6 @@ RUN npm install
 
 RUN npm run build
 
-EXPOSE 9000
+EXPOSE 8001
 
 CMD node server.js

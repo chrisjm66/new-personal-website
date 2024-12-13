@@ -2,18 +2,18 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { NavLink } from "react-router-dom"
 
-const ProjectDisplay = ({name, description, img, githubHref, localHref}: any) => {
+const ProjectDisplay = ({name, subtext, description, img, githubHref, localHref}: any) => {
     return (
-        <div className='w-80 h-1/2 sm:w-120 sm:h-136  transition duration-300 border-4 border-gray-500 bg-cyan-800 flex flex-col justify-center align-top justify-items-center rounded-xl px-6 py-2 hover:scale-105 hover:bg-cyan-700'>
-            <h1 className='m-2 text-left font-semibold'>{name}</h1>
-
+        <div className='mx-5 mb-5 p-4 w-80 h-1/2 sm:w-120 sm:h-140 transition duration-300 border-4 border-gray-500 bg-cyan-800 flex flex-col justify-center align-top justify-items-center rounded-xl px-6 py-2 hover:scale-105 hover:bg-cyan-700'>
+            <h1 className='text-left font-semibold text-4xl'>{name}</h1>
+            <h2 className='mb-3 text-left text-lg font-light italic'>{subtext}</h2>
             <img className='w-1/2 rounded-md border-' src={img} alt='hi'/>
             
             <h2 className='text-left text-lg italic mt-5'>{description}</h2>
 
-            <NavLink to={githubHref} className='flex flex-row items-center transition duration-300 hover:text-green-500'>
+            <NavLink to={'https://github.com/' + githubHref} className='flex flex-row items-center transition duration-300 hover:text-green-500'>
                 <FontAwesomeIcon className='w-10 h-10' icon={faGithub}/>
-                <h3 className='font-mono font-semibold text-lg ml-2 my-4 text-left'>chrisjm66/new-personal-website</h3>
+                <h3 className='font-mono font-semibold text-lg ml-2 my-4 text-left'>{githubHref}</h3>
                 
             </NavLink>
 

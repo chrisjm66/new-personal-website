@@ -8,7 +8,7 @@ app.use(express.static(path.join(path.dirname("."), 'dist')));
 
 dotenv.config()
 
-app.get('/', function (req, res) {
+app.get('/*', function (req, res) {
   res.sendFile(path.join(path.dirname("."), 'dist', 'index.html'));
   console.log("sent!")
 });

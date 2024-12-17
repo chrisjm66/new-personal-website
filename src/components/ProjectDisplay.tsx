@@ -8,7 +8,7 @@ const ProjectDisplay = ({name, description, img, githubHref, localHref}: any) =>
             <h1 className='m-2 text-left font-semibold'>{name}</h1>
 
             
-            <img className='w-1/2 rounded-md border-' src={img} alt='hi'/>
+            {/*<img className='w-1/2 rounded-md border-' src={img} alt='hi'/>*/}
             
             
             

@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
+import NotFound from './components/NotFound'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/about' element={<AboutMe/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='/portfolio' element={<Portfolio/>} />
+          <Route path="*" element={<NotFound/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

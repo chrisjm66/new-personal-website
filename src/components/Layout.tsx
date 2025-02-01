@@ -6,7 +6,9 @@ const Layout = () => {
         <div className='scroll-smooth'>
             <Navbar/>
 
-            <Outlet/>
+            <div>
+                <Outlet/>
+            </div>
         </div>
         
     )

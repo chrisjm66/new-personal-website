@@ -10,7 +10,7 @@ const Home = () => {
 
                 <div className='m-5 text-lg sm:text-3xl text-nowrap md:text-wrap flex flew-row justify-center'>
                     <h2>I enjoy</h2>
-                    <h2 className="text-amber-500 mx-2">web development, aviation, and music.</h2>
+                    <h2 className="text-amber-500 mx-2">get off of my website Matt Matthies.</h2>
                 </div>
 
                 <NavLink to='/about' className='bg-gray-800 p-4 rounded-xl border-2 border-gray-800 w-50 h-15 transition hover:border-amber-500'>Learn more about me</NavLink>

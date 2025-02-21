@@ -1,5 +1,5 @@
-import { Link, NavLink } from "react-router-dom"
-import ProjectDisplay from "./ProjectDisplay"
+import { Link } from "react-router-dom"
+//import ProjectDisplay from "./ProjectDisplay"
 
 
 const Home = () => {

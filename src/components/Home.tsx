@@ -33,12 +33,8 @@ export default Home
 <div className='pt-5'>
     <h1 className='font-bold'>My Projects</h1>
 
-                <div className='flex flex-row justify-center p-10'>
-                    <ProjectDisplay name='This Website' description='This website is a project in and of itself! It uses React and Node primarily!' localHref='personal-website' githubHref='https://github.com/chrisjm66/new-personal-website' />
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default Home
+    <div className='flex flex-row justify-center p-10'>
+        <ProjectDisplay name='This Website' description='This website is a project in and of itself! It uses React and Node primarily!' localHref='personal-website' githubHref='https://github.com/chrisjm66/new-personal-website' />
+    </div>
+</div>
+*/
